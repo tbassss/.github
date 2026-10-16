@@ -26,6 +26,10 @@ body:
         - Somewhere else
     validations:
       required: false
-  - type: markdown
+  - type: textarea
+    id: screenshots
     attributes:
-      value: A screenshot helps. Leave out anything private.
+      label: Screenshots
+      description: Tap in the box, then the attach button (or paste). Leave out anything private.
+    validations:
+      required: false
